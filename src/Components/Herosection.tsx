@@ -4,8 +4,10 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
 export default function Herosection() {
+  // Use a mutable ref for an array of HTMLElements
   const textRefs = useRef<HTMLElement[]>([]);
 
+  // Helper function to add refs safely
   const addToRefs = (el: HTMLElement | null) => {
     if (el && !textRefs.current.includes(el)) {
       textRefs.current.push(el);
@@ -13,20 +15,22 @@ export default function Herosection() {
   };
 
   useEffect(() => {
-    gsap.from(textRefs.current, {
-      opacity: 0,
-      y: 30,
-      duration: 1,
-      stagger: 0.3,
-      ease: "power2.out",
-    });
+    if (textRefs.current.length) {
+      gsap.from(textRefs.current, {
+        opacity: 0,
+        y: 30,
+        duration: 1,
+        stagger: 0.3,
+        ease: "power2.out",
+      });
+    }
   }, []);
 
   return (
     <div className="hero-wrapper">
       <div className="hero-section">
         <div className="hero-content">
-          <div className="intro-wrapper">
+          <div className="intro-wrapper" ref={addToRefs}>
             <h1>
               Hey, I'm <span>Calvine.</span>
               <br />
@@ -38,7 +42,7 @@ export default function Herosection() {
             </h1>
           </div>
 
-          <div className="intro-wrapper">
+          <div className="intro-wrapper" ref={addToRefs}>
             <p>
               Results driven frontend developer that collaborate with startups
               and established brands to transform ambitious ideas into
@@ -48,7 +52,7 @@ export default function Herosection() {
             </p>
           </div>
 
-          <div className="cta-row">
+          <div className="cta-row" ref={addToRefs}>
             <div className="chat-div alt">
               <a
                 href="https://web.whatsapp.com/"
@@ -64,7 +68,7 @@ export default function Herosection() {
             </div>
           </div>
         </div>
-        <div className="hero-image">
+        <div className="hero-image" ref={addToRefs}>
           <img src="./hero.PNG" alt="Calvine" />
         </div>
       </div>
