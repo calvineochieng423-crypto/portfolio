@@ -25,7 +25,7 @@ export default function Projectsection() {
               that help clients schedule services instantly.
             </p>
             <a
-              href="https://majestic-begonia-965300.netlify.app/"
+              href="https://176e5591.plumbing-drv.pages.dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="view-btn"
@@ -46,7 +46,7 @@ export default function Projectsection() {
               discovery for users.
             </p>
             <a
-              href="https://creative-axolotl-73e537.netlify.app/"
+              href="https://d944b9a6.monexa.pages.dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="view-btn"
@@ -67,7 +67,7 @@ export default function Projectsection() {
               engagement and retention.
             </p>
             <a
-              href="https://monumental-genie-0588c5.netlify.app/"
+              href="https://04998469.house-coffee.pages.dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="view-btn"
