@@ -75,6 +75,26 @@ export default function Projectsection() {
               View Project <FiExternalLink />
             </a>
           </div>
+          {/* ☕ Project 4 */}
+          <div className="card">
+            <picture>
+              <img src="./P4.jpg" alt="Coffee Website" />
+            </picture>
+            <h3>FinTrack Pro Financial Dashboard</h3>
+            <p>
+              A dynamic financial dashboard featuring real-time data
+              visualization, interactive charts, and customizable widgets to
+              help users monitor their financial health effectively.
+            </p>
+            <a
+              href="https://financial-dashboard-ck1.pages.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="view-btn"
+            >
+              View Project <FiExternalLink />
+            </a>
+          </div>
         </div>
       </div>
     </div>
