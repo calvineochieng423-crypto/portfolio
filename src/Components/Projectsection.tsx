@@ -18,14 +18,15 @@ export default function Projectsection() {
             <picture>
               <img src="./P1.png" alt="Plumbing Website" />
             </picture>
-            <h3>BluePipe Plumbing Services</h3>
+            <h3>CompleteSEO</h3>
             <p>
-              A modern, conversion-focused platform for plumbing professionals.
-              Built with a real-time booking system and direct contact features
-              that help clients schedule services instantly.
+              CompleteSEO is a results-driven digital marketing agency based in
+              Austin, Texas, specializing in SEO, technical audits, content
+              strategy, and link building to help businesses grow their organic
+              visibility and generate leads.
             </p>
             <a
-              href="https://176e5591.plumbing-drv.pages.dev/"
+              href="https://completeseo.com/the-future-of-search/"
               target="_blank"
               rel="noopener noreferrer"
               className="view-btn"
@@ -39,14 +40,15 @@ export default function Projectsection() {
             <picture>
               <img src="./P2.png" alt="Real Estate Website" />
             </picture>
-            <h3>PropertyVision Real Estate</h3>
+            <h3>Diamo</h3>
             <p>
-              A sleek, API-powered real estate website with dynamic listings,
-              live search, and map integration ,designed to simplify property
-              discovery for users.
+              Diamo.ai is an AI-driven platform that helps independent hotels
+              automate pricing, marketing, and direct bookings. With its smart
+              assistant and expert support, it boosts revenue and reduces
+              workload for small hospitality businesses.
             </p>
             <a
-              href="https://d944b9a6.monexa.pages.dev/"
+              href="https://www.diamo.ai/"
               target="_blank"
               rel="noopener noreferrer"
               className="view-btn"
@@ -60,14 +62,15 @@ export default function Projectsection() {
             <picture>
               <img src="./P3.png" alt="Coffee Website" />
             </picture>
-            <h3>BrewSpace Coffee</h3>
+            <h3>Forger Project</h3>
             <p>
-              A brand-driven coffee shop platform with an elegant layout,
-              product showcase, and online order flow optimized for customer
-              engagement and retention.
+              Forager Project is a plant-based creamery focused on making
+              dairy-alternative foods using organic ingredients like cashews and
+              coconuts. Their product line includes yogurts, milks & creamers,
+              sour cream, protein shakes, and drinkable yogurts.
             </p>
             <a
-              href="https://04998469.house-coffee.pages.dev/"
+              href="https://foragerproject.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="view-btn"
