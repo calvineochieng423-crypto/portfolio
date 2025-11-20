@@ -26,7 +26,7 @@ export default function Projectsection() {
               visibility and generate leads.
             </p>
             <a
-              href="https://completeseo.com/the-future-of-search/"
+              href="https://completeseo.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="view-btn"
